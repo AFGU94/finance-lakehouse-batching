@@ -54,7 +54,7 @@ A **serverless** financial Data Lakehouse on Google Cloud, designed to stay **10
 
 Recommended order to get the project running end-to-end.
 
-### 0. Authentication and APIs (once per project)
+### Authentication and APIs (once per project)
 
 ```bash
 gcloud auth application-default login

@@ -14,7 +14,7 @@ A **serverless** financial Data Lakehouse on Google Cloud, designed to stay **10
     (1) Extract  ← Python (yfinance) → Yahoo Finance API
     (2) Load     → GCS (raw/YYYY-MM-DD/*.parquet)
     (3) Load     → BigQuery (staging.stock_prices)
-    (4) Transform → dbt Core → BigQuery (marts)  [pending]
+    (4) Transform → dbt Core → BigQuery (marts)  
 ```
 
 ---

@@ -36,7 +36,7 @@ A **serverless** financial Data Lakehouse on Google Cloud, designed to stay **10
 |---------------|----------|
 | **`/infra`** | Terraform: GCS, Artifact Registry, BigQuery (staging + marts), Cloud Run Job, Cloud Scheduler, Service Account. |
 | **`/src`** | Python pipeline: `config.py` (tickers, env), `extract.py` (yfinance), `load_gcs.py`, `load_bigquery.py`, `main.py` (entrypoint). |
-| **`/dbt_project`** | dbt models (staging → marts), to be implemented. |
+| **`/dbt_project`** | dbt models (staging → marts)
 
 ---
 
